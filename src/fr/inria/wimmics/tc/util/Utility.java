@@ -1,8 +1,22 @@
 package fr.inria.wimmics.tc.util;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Utility {
+	
+	/**
+	 * Integer comparator for sort and other built-in algorithms
+	 * @author hrakebul
+	 *
+	 */
+	class IntegerComparator implements Comparator<Integer> {
+
+	    @Override
+	    public int compare(Integer o1, Integer o2) {
+	        return o2.compareTo(o1);
+	    }
+	}
 	
 	/**
 	 * copies the content of a string array into a 2D char matrix

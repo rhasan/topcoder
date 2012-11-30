@@ -13,20 +13,20 @@ package fr.inria.wimmics.uva;
  */
 import java.util.Scanner;
 //i/o example
-class Main {   // save as Main.java
-   public static void main(String[] args) {
-      Scanner in = new Scanner(System.in);
-
-      int    i = in.nextInt();    // read int
-      double d = in.nextDouble(); // read double
-      String s = in.next();       // read String
-      // There is no nextChar(), use next() and charAt()
-      char c = s.charAt(2);
-      // Read whole line (or rest of the line past '\n')
-      String line = in.nextLine();
-
-      System.out.printf("%4d, %6.2f, %s, %c\n", i, d, s, c);
-      // Use %f for double (not %lf)
-      // Don't forget to print the '\n'
-   }
-}
+//class Main {   // save as Main.java
+//   public static void main(String[] args) {
+//      Scanner in = new Scanner(System.in);
+//
+//      int    i = in.nextInt();    // read int
+//      double d = in.nextDouble(); // read double
+//      String s = in.next();       // read String
+//      // There is no nextChar(), use next() and charAt()
+//      char c = s.charAt(2);
+//      // Read whole line (or rest of the line past '\n')
+//      String line = in.nextLine();
+//
+//      System.out.printf("%4d, %6.2f, %s, %c\n", i, d, s, c);
+//      // Use %f for double (not %lf)
+//      // Don't forget to print the '\n'
+//   }
+//}

@@ -1,6 +1,4 @@
-
-
-
+package fr.inria.wimmics.uva.contest.november18;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -22,20 +20,20 @@ import java.util.StringTokenizer;
 
 
 
-class Main {
-	public static void main(String[] args) throws FileNotFoundException {
+//class Main {
+//	public static void main(String[] args) throws FileNotFoundException {
+//
+//		
+//		
+//		UVA12543 sol = new UVA12543();
+//		
+//		//FileInputStream fis = new FileInputStream("in/j.in");
+//		//sol.solution(fis);
+//		sol.solution(System.in);
+//	}	
+//}
 
-		
-		
-		J sol = new J();
-		
-		//FileInputStream fis = new FileInputStream("in/j.in");
-		//sol.solution(fis);
-		sol.solution(System.in);
-	}	
-}
-
-class J {
+class UVA12543 {
 
 	
 	public void solution(InputStream inStream) {
@@ -80,4 +78,3 @@ class J {
 	}
 
 }
-
